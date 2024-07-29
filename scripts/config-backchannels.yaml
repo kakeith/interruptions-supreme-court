@@ -1,0 +1,15 @@
+# Configurations for the pipeline published in our paper 
+start_year: 1982 #inclusive; year our analysis starts
+end_year: 2020 #not inclusive; year our analysis ends
+min_num_chunks_per_just: 1000 # minimum number of valid chunks we require for a 
+include_fem_issue: False # if True, this means one includes "feminine"-coded issues in the full pipeline
+                         # See the "Gendered Issues" section in our paper
+num_bootstrap_samples: 1000
+exclude_adv_first_utt: False # if True, excluding chunks for advocates very first utterance (very long utterance)
+
+# BACKCHANNEL RESULTS 
+# The following are changed for backchannel results 
+exclude_backchannel: True # if true, excludes backchannel cue utterances 
+chunk_path: "data/chunks2.0back/" #path to write and read chunks to 
+prev_utt_path: "data/prev_utt_2.0back/" #path to read and write previous utterances 
+final_df_path: "data/df_final_2.0back.csv" #path to write and read the final dataframe 
