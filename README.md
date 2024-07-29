@@ -1,6 +1,6 @@
 # "Let Me Just Interrupt You": Estimating Gender Effects in Supreme Court Oral Arguments
 
-This is replication code to support the paper ["Let Me Just Interrupt You": Estimating Gender Effects in Supreme Court Oral Arguments]() which forthcoming in *Journal of Law and Courts.* 
+This is replication code to support the paper ["Let Me Just Interrupt You": Estimating Gender Effects in Supreme Court Oral Arguments]() which is forthcoming in the *Journal of Law and Courts.* 
 
 If you use this code or data, please cite our paper: 
 
