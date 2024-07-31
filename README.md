@@ -73,7 +73,7 @@ Pipeline descisions are detailed in `scripts/config.yaml`. To replicate our code
 
 ## Notes
 
-In the ConvoKit/Ozez data there are still errors with `John G. Roberts Jr.` when he was an advocate. This results in warnings after running `create_analyze_chunks.py` such as  `John G. Roberts Jr.  not found in caseid2stuff dict, assigning unknown. case id: 1991_90-6531`. This warning should not substantively affect the results. 
+In the ConvoKit/Oyez data there are still errors with `John G. Roberts Jr.` when he was an advocate. This results in warnings after running `create_analyze_chunks.py` such as  `John G. Roberts Jr.  not found in caseid2stuff dict, assigning unknown. case id: 1991_90-6531`. This warning should not substantively affect the results. 
 
 
 
